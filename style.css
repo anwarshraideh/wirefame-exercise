@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+*{
+
+  box-sizing:border-box;
+}
+
+
+ body {
+    width: 960px;
+    margin: auto;
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+  }
+
+  header
+  {
+    padding: 10px 0;
+    background: rgb(73, 70, 70);
+    
+  }
+  
+  header nav div {
+    float: right;
+    margin: 30px;
+    padding-right: 60px;
+}
+
+  header nav img {
+
+    padding-left: 75px;
+    color: #000;
+
+  }
+  
+  header nav div a {
+  
+   padding: 30px;
+   color: #DDD;
+   text-decoration: none;
+   
+  }
+
+main div img {
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+main section img {
+  width: calc(100% / 3);
+  float: left;
+  padding: 20px;
+  
+}
+
+main article img{
+  margin-top: 20;
+  float: left;
+  margin-bottom: 20px;
+}
+
+main article h3{
+ text-align: center;
+ padding-top: 20px;
+
+}
+
+main article p{
+  text-align: right;
+  overflow: scroll;
+  height: 300px;
+  
+ }
+ main article button{
+  float: left;
+  margin-left: 10px;
+  background-color: #000;
+  color: white;
+ }
+
+footer{
+  clear: both;
+  height: 40px;
+  background-color: rgb(73, 70, 70);
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+  
+
+
+  
+  
+
